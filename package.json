@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NurgaleevaDi/productly/issues"
   },
-  "homepage": "https://github.com/NurgaleevaDi/productly#readme"
+  "homepage": "https://github.com/NurgaleevaDi/productly#readme",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }
