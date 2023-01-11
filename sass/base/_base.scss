@@ -9,19 +9,31 @@ body {
 
 h1 {
     @extend %font-add;
-    @include font(44px, 54px, bold); 
+    @include font(4.4rem, 5.4rem, bold);
+    @include media-mobile {
+        @include font(3.2rem, 4.2rem, bold);
+    }
 }
 
 h2 {
-    @include font(34px, 46px, bold); 
+    @include font(34px, 46px, bold);
+    @include media-mobile {
+        @include font(2.4rem, 3.3rem, bold);
+    }
 }
 
 h3 {
     @include font(24px, 34px, 700); 
+    @include media-mobile {
+        @include font(2.1rem, 4.2rem, bold);
+    }
 }
 
 h4 {
-    @include font(22px, 30px, 600); 
+    @include font(22px, 30px, 600);
+    @include media-tablet {
+        @include font(20px, 30px, 600);
+    }
 }
 
 h5 {
